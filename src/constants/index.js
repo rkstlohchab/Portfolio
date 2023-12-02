@@ -165,6 +165,6 @@ export const projects = [
     name: "Full Stack Notes App",
     description:
       "Built a full stack notes application with Realtime cursors, Nextjs 13, Stripe, Drizzle ORM, Tailwind, Supabase, Sockets .",
-    link: "https://github.com/rkstlohchab/NotesApp",
+    link: "https://github.com/rkstlohchab/notes_app",
   },
 ];
