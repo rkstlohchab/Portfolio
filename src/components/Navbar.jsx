@@ -1,0 +1,22 @@
+import { NavLink } from "react-router-dom";
+
+
+const Navbar = () => {
+  return (
+    <header className='header'>
+      <NavLink to='/'>
+        <p className='w-18 h-18 object-contain'>@rkstlohchab</p>
+      </NavLink>
+      <nav className='flex text-lg gap-7 font-medium'>
+        <NavLink to='/' className={({ isActive }) => isActive ? "text-blue-600" : "text-black" }>
+          Home
+        </NavLink>
+        <NavLink to='/projects' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"}>
+          Projects
+        </NavLink>
+      </nav>
+    </header>
+  );
+};
+
+export default Navbar;
