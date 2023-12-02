@@ -40,16 +40,16 @@ export const skills = [
     url: "https://redux.js.org/",
   },
   {
+    imageUrl: nextjs,
+    name: "Next.js",
+    type: "Frontend",
+    url: "https://nextjs.org/",
+  },
+  {
     imageUrl: express,
     name: "Express",
     type: "Backend",
     url: "https://expressjs.com/",
-  },
-  {
-    imageUrl: javascript,
-    name: "JavaScript",
-    type: "Frontend",
-    url: "https://www.w3schools.com/js/",
   },
   {
     imageUrl: nodejs,
@@ -160,11 +160,11 @@ export const projects = [
     link: "https://github.com/rkstlohchab/BlockChain_BootCamp",
   },
   {
-    iconUrl: snapgram,
+    iconUrl: estate,
     theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    name: "Full Stack Notes App",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/rkstlohchab/instagram-clone",
-  }
+      "Built a full stack notes application with Realtime cursors, Nextjs 13, Stripe, Drizzle ORM, Tailwind, Supabase, Sockets .",
+    link: "https://github.com/rkstlohchab/NotesApp",
+  },
 ];
